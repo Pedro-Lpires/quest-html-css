@@ -1,0 +1,126 @@
+:root{
+    --rosa:hsl(300, 69%, 71%);
+    --roxo:hsl(257, 40%, 49%) ;
+}
+
+
+body{
+
+    /* background: var(--roxo)  url(/src/images/bg-desktop.svg) no-repeat  center  ; */
+    height: 100%;
+    
+   
+    
+}
+.desktop{
+    background-color: var(--roxo);
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+
+    
+}
+
+header{
+ padding: 40px;
+ margin-left: 9% ;
+}
+
+main{
+   
+    margin-left: 10% ;
+    display: flex;
+    align-items: center;
+   
+    
+
+
+}
+
+.mockup{
+    width: 55%;
+    margin-top: 4.3%;
+    
+}
+
+.informacoes{
+    margin-left: 7%;
+    margin-bottom: 10%;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    max-width: 32%;
+    font-family:sans-serif;
+
+
+}
+
+h2{
+    
+    font-size: 45px;
+    color: aliceblue;
+    font-weight: 700;
+
+    
+}
+
+p{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    
+}
+
+.registro{
+   
+    border-radius: 30px;
+    border: solid 20px  aliceblue;
+    background-color: aliceblue;
+    text-decoration: none;
+    color: var(--roxo);
+    width: 40%;
+    text-align: center;
+    
+
+}
+
+.registro:hover{
+ background-color: var(--rosa);
+ border-color: var(--rosa);
+ color: aliceblue;
+ 
+}
+
+
+
+
+
+
+footer{
+display: flex;
+justify-content: end;
+
+gap: 20px; 
+ margin-right: 5%;
+
+
+
+}
+
+
+ i{
+    padding: 10px;
+    border: solid 2px aliceblue;
+    border-radius: 20px;
+    color: aliceblue;
+
+}
+
+i:hover{
+    border-color: var(--rosa);
+    color: var(--rosa);
+} 

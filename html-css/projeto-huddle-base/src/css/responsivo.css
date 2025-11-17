@@ -1,0 +1,119 @@
+@media screen and (max-width:450px) {
+
+    .desktop{
+
+        max-height: 45%;
+
+        
+        
+}
+body{
+    /* background: var(--roxo) url(/src/images/bg-mobile.svg) no-repeat top ;
+
+    width:; */
+    background-color: var(--roxo);
+
+}
+
+header{
+    margin: 0;
+    margin-bottom: 10px;
+    
+}    
+
+h1 img{
+
+    width: 50%;
+    
+    
+   
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 0 ;
+    
+    
+    
+}
+
+main img.mockup{
+    margin: 0;
+    width: 79%;
+    margin-bottom: 10%;
+}
+
+ div.informacoes{
+    margin: 0;
+    max-width: 75% ;
+    text-align: center;
+    align-items: center;   
+    margin-top: 30px;
+    
+     
+}
+div.informacoes h2{
+   font-size: 30px;
+  
+
+}
+div.informacoes p{
+font-size: 18px;
+
+}
+
+a.registro{
+    width: 70%;
+    height: 40px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+footer{
+
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 150px;
+    
+
+
+}
+
+}
+
+@media screen and (max-width:400px) {
+
+
+main img.mockup{
+    width: 75%;
+    margin-bottom: 5%;
+}
+
+    div.informacoes{
+        max-width: 80%;
+        margin: 0;
+    
+    }
+
+    div.informacoes h2{
+    font-size: 25px;
+  
+
+}
+    div.informacoes p{
+    font-size: 17px;
+
+
+ }
+
+
+
+}
